@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мафия Раздача Ролей Онлайн</title>
+    <meta
+      name="description"
+      content="Мафия раздача ролей онлайн без регистрации,  с помощью моего сайта вы сможете быстро раздать роли участникам Мафии, раздать роли с нами - просто! Мафия Онлайн Раздача Ролей"
+    />
+    <meta
+      name="keywords"
+      content="Мафия, Раздача ролей мафия, Раздача ролей в мафии онлайн, Раздача ролей в мафии без регистрации, Мафия раздать роли."
+    />
+    <meta name="author" content="golub-designer" />
+    <meta name="publisher-email" content="golub-designer@gmail.com" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="display: flex; justify-content: end">
+    <div
+      id="timerContainer"
+      class="d-flex flex-column align-items-center gap-2 p-3 border rounded"
+      style="width: 150px; background: #f8f9fa"
+    >
+      <small class="text-muted">TIMER:</small>
+      <h2 id="timerDisplay" class="mb-0 fw-bold">00:00</h2>
+      <button onclick="startTimer()" class="btn btn-primary btn-sm w-100">
+        START
+      </button>
+      <button
+        onclick="addThirty()"
+        class="btn btn-outline-secondary btn-sm w-100"
+      >
+        +30
+      </button>
+    </div>
+
+    <div>
+      <p class="auto-p"></p>
+      <div class="form-row">
+        <div class="col-1">
+          <label class="label">
+            Количество игроков:
+            <input
+              type="number"
+              class="form-control user-form"
+              id="user-form"
+              placeholder="Автоматический 10"
+            />
+          </label>
+        </div>
+      </div>
+
+      <button onclick="auto()" type="button" class="btn btn-primary action">
+        Получить роли
+      </button>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
