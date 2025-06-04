@@ -3,4 +3,4 @@
 THIS CODE IS UPDATED, SIMPLIFYED AND MODERNIZED VERSION OF THE MAFIA RANDOMIZER
 
 INTERNETWARRIOR
-[OPEN-ОТКРЫТЬ](HTTPS://internetwarrior.github.io/mafia-controller)
+[OPEN-ОТКРЫТЬ](https://internetwarrior.github.io/MAFIA-CONTROLER/)
