@@ -81,3 +81,41 @@ hr {
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
+
+.role-copy {
+  cursor: pointer;
+}
+.role-copy:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.active-role {
+  font-weight: bold;
+}
+.timer-animation {
+  animation: pulseText 10s linear forwards;
+  color: red;
+}
+
+@keyframes pulseText {
+  0% {
+    color: red;
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    color: orange;
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  90% {
+    color: yellow;
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+  100% {
+    color: gray;
+    transform: scale(0.9);
+    opacity: 0.4;
+  }
+}
